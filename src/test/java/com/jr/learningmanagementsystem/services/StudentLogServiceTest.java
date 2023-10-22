@@ -6,6 +6,7 @@ import com.jr.learningmanagementsystem.mapper.StudentLogMapper;
 import com.jr.learningmanagementsystem.model.Student;
 import com.jr.learningmanagementsystem.model.StudentLog;
 import com.jr.learningmanagementsystem.repositories.StudentLogRepository;
+import java.util.Optional;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,8 +14,6 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
-
-import java.util.Optional;
 
 @RunWith(MockitoJUnitRunner.class)
 public class StudentLogServiceTest {

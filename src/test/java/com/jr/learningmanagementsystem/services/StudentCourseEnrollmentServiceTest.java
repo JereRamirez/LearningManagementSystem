@@ -6,18 +6,15 @@ import com.jr.learningmanagementsystem.model.StudentCourseEnrollment;
 import com.jr.learningmanagementsystem.repositories.CourseRepository;
 import com.jr.learningmanagementsystem.repositories.StudentCourseEnrollmentRepository;
 import com.jr.learningmanagementsystem.repositories.StudentRepository;
+import java.util.Optional;
+import javax.transaction.Transactional;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.boot.test.context.SpringBootTest;
-import javax.transaction.Transactional;
-import java.util.Optional;
 
 @RunWith(MockitoJUnitRunner.class)
 public class StudentCourseEnrollmentServiceTest {
